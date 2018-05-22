@@ -29,7 +29,7 @@ public class MainController implements Initializable {
     
     @FXML
     public void actionBtnFFT(ActionEvent event){
-        System.out.println("Hola");
-        FourierTransform.test();
+        FourierTransform fourier = new FourierTransform();
+        fourier.test();
     }
 }
